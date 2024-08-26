@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(images.jfif);
+}
+
+/* Container Styles */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Form Container */
+.hi {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background: black;
+  border-radius: 9px;
+  text-align: center;
+  padding: 50px;
+  gap: 20px;
+  color: darkseagreen;
+}
+
+/* Hover effects for form container */
+.hi:hover {
+  width: 420px;
+  transition-duration: 0.7s;
+}
+
+/* Form Control Styles */
+.form-control {
+  width: 100%;
+  height: 60px;
+}
+
+/* Hover effect for form controls */
+.form-control:hover {
+  filter: drop-shadow(0 0 5px rgb(23, 221, 172));
+}
+
+/* Header Styles */
+h3 {
+  margin: 0;
+}
+
+/* Hover effect for header */
+h3:hover {
+  filter: drop-shadow(5px 5px 15px rgb(29, 182, 182));
+  background-color: aqua;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Button Styles */
+.primary {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: black;
+  color: rgb(225, 230, 220);
+  width: 100%;
+  height: 40px;
+  border: none;
+}
+
+/* Hover effect for buttons */
+.primary:hover {
+  filter: drop-shadow(0 0 3px darkcyan);
+  background-color: aqua;
+  transition-duration: 0.7s;
+}
+
+/* Links inside buttons */
+.primary a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: -25px;
+  margin-top: 1px;
+}
